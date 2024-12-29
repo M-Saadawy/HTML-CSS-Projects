@@ -47,7 +47,7 @@ Basic HTML & CSS
  * Music player: Create a basic music player with play, pause, and volume controls.
  * Video player: Design a video player with basic controls.
  * Interactive map: Implement a map with markers and popups.
- * Search bar with autocomplete: Create a search bar that suggests results as you type.
+ * Search bar.
  * Drag and drop interface: Build a drag and drop interface for tasks or items.
  * File upload Interface >
  * Responsive pricing table: Design a pricing table that adapts to different screen sizes.
@@ -110,7 +110,8 @@ Here are additional **HTML & CSS-only project ideas** to expand your practice li
 - **Typography Styles**: Design a page showcasing different font styles, weights, sizes, and text decorations.  
 - **Simple Countdown Timer**: Display a countdown timer using only CSS animations for styling.  
 - **Split-Screen Layout**: Design a split-screen webpage with two sections side by side.  
-- **Timeline**: Create a vertical or horizontal timeline for events with styled markers.  
+- **Timeline: Vertical**:
+- **Timeline: Horizontal**:
 - **Styled Blockquotes**: Showcase creative ways to design blockquotes for a webpage.  
 - **Card Layouts**: Build various card styles (profile cards, product cards, info cards) using flexbox or grid.  
 - **Notification Banners**: Design banner notifications with dismissible functionality.  
@@ -126,19 +127,19 @@ Here are additional **HTML & CSS-only project ideas** to expand your practice li
 - **CSS Clipping Mask**: Use CSS clip-path to create unique image shapes.  
 - **Accordion with Icons**: Add icons that rotate or change when sections expand or collapse.  
 - **Styled Checkbox & Radio Buttons**: Redesign default checkboxes and radio buttons with custom styling.  
-- **Multi-step Form**: Create a form divided into multiple steps with progress indicators.  
-- **Loading Bars**: Design animated loading bars with different patterns or shapes.  
+- **Multi-step Form**: .  
+- **Loading Bars**: .  
 
 ### Slightly More Advanced
-- **Interactive FAQ Section**: Style a section with collapsible questions and answers.  
+- **Interactive FAQ Section**: 
 - **Fixed Background Sections**: Build a page with fixed background sections that create a cool scrolling effect.  
-- **CSS-only Clock**: Create a working analog clock using only HTML & CSS.  
+- **CSS-only Clock**: 
 - **Hover-Activated Dropdowns**: Implement dropdowns that expand on hover with smooth animations.  
-- **Comparison Table**: Design a table comparing two or more products or services.  
-- **Overlay Menu**: Build a full-screen overlay menu that slides in from the side.  
-- **Responsive Timeline**: Create a timeline that adapts well to mobile screens.  
+- **Comparison Table**: 
+- **Overlay Menu**: .  
+- **Responsive Timeline**: .  
 - **Dynamic Image Collage**: Build an image collage that rearranges itself based on screen size.  
-- **Decorative Borders**: Showcase creative border styles using CSS properties.  
+- **Decorative Borders**: .  
 
 ### Creative & Specific
 - **Fixed Header with Scroll Effect**: Design a header that shrinks or changes style on scroll.  
@@ -150,10 +151,10 @@ Here are additional **HTML & CSS-only project ideas** to expand your practice li
 - **Breadcrumb with Icons**: Style breadcrumbs with small icons for each level.  
 - **Interactive Star Rating**: Create a static star rating system styled with CSS.  
 - **Scrolling News Ticker**: Design a horizontal scrolling ticker for news or updates.  
-- **CSS Speech Bubble**: Create a speech bubble design for chat messages or testimonials.  
+- **CSS Speech Bubble**:.  
 
 ### Challenging & Modern
-- **Animated Tabs**: Create tabs with sliding animations between content panels.  
+- **Animated Tabs**:.  
 - **CSS Lava Lamp Menu**: Design a menu with a "lava lamp" effect using pseudo-elements.  
 - **CSS Particle Background**: Implement a lightweight particle effect using keyframes.  
 - **CSS-only Flipbook**: Build a simple flipbook effect for displaying content or images.  
