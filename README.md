@@ -11,6 +11,11 @@ Basic HTML & CSS
  * Image gallery: Create a grid or list to display images.
  * Navigation bar: Build a horizontal or vertical navigation menu.
  * Dropdown menu: Create a menu with nested sub-items.
+ * Chat Interface
+ * Card: Recipe
+ * Card: Business
+ * Event Invitation
+ * Survey Form
  * Button styles: Design various button shapes, colors, and hover effects.
  * Forms: Create basic forms with text fields, radio buttons, checkboxes, and submit buttons.
  * Tables: Build simple tables to display data.
