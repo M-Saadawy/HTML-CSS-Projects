@@ -1,5 +1,10 @@
 # HTML & CSS Only Projects
 
+## Features 
+
+### All Projects are Responsive 💯
+### No JavaScript (Not Even a Single Line) ⚠️
+
 # Upcoming Projects 
 
 Basic HTML & CSS
