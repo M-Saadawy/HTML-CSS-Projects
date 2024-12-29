@@ -160,15 +160,15 @@ Creative & Specific
 *CSS Speech Bubble
 
 ### Challenging & Modern
-*Animated Tabs 
-*CSS Lava Lamp Menu
-*CSS Particle Background 
-*CSS-only Flipbook
-*Glowing Effects
-*3D Perspective Card Hover
-*Rotating Carousel
-*Diagonal Sections
-*Multi-column Layouts
-*Animated Wave Backgrounds
+ * Animated Tabs 
+ * CSS Lava Lamp Menu
+ * CSS Particle Background 
+ * CSS-only Flipbook
+ * Glowing Effects
+ * 3D Perspective Card Hover
+ * Rotating Carousel
+ * Diagonal Sections
+* Multi-column Layouts
+* Animated Wave Backgrounds
 
 -----------------------------------
