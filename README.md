@@ -126,15 +126,15 @@ Creative & Specific
 
 ### Intermediate
 - **Skill Bar**: Display skill levels with horizontal bars styled with CSS animations.  
-- **Calendar**: Build a static monthly calendar layout with CSS styling.  
-- **Animated Toggle Switch**: Create a toggle switch with smooth animations.  
-- **Hover Cards**: Design cards that flip or expand on hover to reveal additional information.  
-- **Responsive Footer**: Create a footer that adapts to different screen sizes and contains multiple sections (e.g., links, contact info, social icons).  
-- **CSS Clipping Mask**: Use CSS clip-path to create unique image shapes.  
-- **Accordion with Icons**: Add icons that rotate or change when sections expand or collapse.  
-- **Styled Checkbox & Radio Buttons**: Redesign default checkboxes and radio buttons with custom styling.  
-- **Multi-step Form**: .  
-- **Loading Bars**: .  
+*Calendar
+*Animated Toggle Switch
+*Hover Cards: Design cards that flip or expand on hover to reveal additional information.  
+*Responsive Footer
+*CSS Clipping Mask: Use CSS clip-path to create unique image shapes.  
+*Accordion with Icons**
+*Styled Checkbox & Radio Buttons
+*Multi-step Form
+*Loading Bars
 
 ### Slightly More Advanced
 - **Interactive FAQ Section**: 
@@ -150,25 +150,25 @@ Creative & Specific
 ### Creative & Specific
 - **Fixed Header with Scroll Effect**: Design a header that shrinks or changes style on scroll.  
 - **Split Navigation Menu**: Create a navigation menu split into two parts on either side of a logo.  
-- **Testimonials with Avatars**: Design a section with user testimonials, styled with avatars and quotes.  
-- **Circular Navigation Menu**: Implement a circular menu with expanding options.  
-- **Interactive Pricing Table**  
-- **CSS Ribbon**
-- **Breadcrumb with Icons**
-- **Interactive Star Rating**
-- **Scrolling News Ticker**
-- **CSS Speech Bubble**
+*Testimonials with Avatars
+*Circular Navigation Menu: Implement a circular menu with expanding options.  
+*Interactive Pricing Table 
+*CSS Ribbon
+*Breadcrumb with Icons
+*Interactive Star Rating
+*Scrolling News Ticker
+*CSS Speech Bubble
 
 ### Challenging & Modern
-- **Animated Tabs**:.  
-- **CSS Lava Lamp Menu**
-- **CSS Particle Background**.  
-- **CSS-only Flipbook**
-- **Glowing Effects**
-- **3D Perspective Card Hover**
-- **Rotating Carousel**
-- **Diagonal Sections**
-- **Multi-column Layouts**  
-- **Animated Wave Backgrounds**
+*Animated Tabs 
+*CSS Lava Lamp Menu
+*CSS Particle Background 
+*CSS-only Flipbook
+*Glowing Effects
+*3D Perspective Card Hover
+*Rotating Carousel
+*Diagonal Sections
+*Multi-column Layouts
+*Animated Wave Backgrounds
 
 -----------------------------------
