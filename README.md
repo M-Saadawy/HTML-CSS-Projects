@@ -15,13 +15,10 @@ Basic HTML & CSS
  * CSS gradients: Create linear and radial gradients.
  * CSS shapes: Experiment with basic shapes like circles and triangles.
  * Favicon: Create a favicon for your webpage.
- * Tooltip: Implement a simple tooltip that appears on hover.
+ * Tooltip: .
  * Modal popup Interface >
- * Accordion: Build a collapsible content section.
- * Tabs: Create a tabbed interface to display different content panels.
- * Simple animations: Use CSS transitions and keyframes for basic animations.
- * Responsive typography: Make your text scale smoothly across different screen sizes.
-Intermediate
+ * Accordion:.
+ * Tabs: 
  * Login form >
  * Registration form >
  * Contact form >
