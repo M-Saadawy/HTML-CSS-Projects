@@ -17,8 +17,8 @@ Basic HTML & CSS
  * Card: Business
  * Event Invitation
  * Survey Form
- * Button styles: Design various button shapes, colors, and hover effects.
- * Forms: Create basic forms with text fields, radio buttons, checkboxes, and submit buttons.
+ * Button styles
+ * Forms
  * Tables: Simple
  * Lists: Style ordered and unordered lists.
  * CSS shapes: Experiment with basic shapes like circles and triangles.
@@ -36,13 +36,13 @@ Basic HTML & CSS
  * Progress bar >
  * Breadcrumbs: Implement breadcrumbs to show the user's location on a website.
  * Image slider >
- * Dropdown menu with hover effects: Create a dropdown menu with smooth hover animations.
+ * Dropdown menu with hover effects
  * Sticky navigation bar: Make the navigation bar stick to the top when scrolling.
  * Off-canvas menu
  * Parallax scrolling effect
  * Responsive image gallery
  * Animated buttons
- * Loading animations: Design various loading spinners and animations.
+ * Loading animations
 ## Slightly More Advanced
  * Weather app Imterface >
  * Quiz app Interface 
@@ -110,18 +110,17 @@ Creative & Specific
  * Website with a lightbox for images:
  * Website with a contact form with AJAX:
 ---------------------------------------
-Here are additional **HTML & CSS-only project ideas** to expand your practice list:
 
 ### Basic HTML & CSS
-- **Hover Effects Gallery**: Create a gallery where each image has a unique hover effect (zoom, grayscale, blur, etc.).  
+- **Hover Effects Gallery**: 
 - **Typography Styles**: Design a page showcasing different font styles, weights, sizes, and text decorations.  
-- **Simple Countdown Timer**: Display a countdown timer using only CSS animations for styling.  
-- **Split-Screen Layout**: Design a split-screen webpage with two sections side by side.  
-- **Timeline: Vertical**:
-- **Timeline: Horizontal**:
-- **Styled Blockquotes**: Showcase creative ways to design blockquotes for a webpage.  
+- **Simple Countdown Timer**
+- **Split-Screen Layout**
+- **Timeline: Vertical**
+- **Timeline: Horizontal**
+- **Styled Blockquotes**
 - **Card Layouts**: Build various card styles (profile cards, product cards, info cards) using flexbox or grid.  
-- **Notification Banners**: Design banner notifications with dismissible functionality.  
+- **Notification Banners**
 - **Simple Badges**: Create badges for status or notifications (e.g., "New", "Sale").  
 - **Tag Cloud**: Design a tag cloud where tags have varying font sizes and colors based on importance.
 
@@ -153,23 +152,23 @@ Here are additional **HTML & CSS-only project ideas** to expand your practice li
 - **Split Navigation Menu**: Create a navigation menu split into two parts on either side of a logo.  
 - **Testimonials with Avatars**: Design a section with user testimonials, styled with avatars and quotes.  
 - **Circular Navigation Menu**: Implement a circular menu with expanding options.  
-- **Interactive Pricing Table**: Add hover effects to pricing tables for better interactivity.  
-- **CSS Ribbon**: Add a ribbon to the corner of a box or image.  
-- **Breadcrumb with Icons**: Style breadcrumbs with small icons for each level.  
-- **Interactive Star Rating**: Create a static star rating system styled with CSS.  
-- **Scrolling News Ticker**: Design a horizontal scrolling ticker for news or updates.  
-- **CSS Speech Bubble**:.  
+- **Interactive Pricing Table**  
+- **CSS Ribbon**
+- **Breadcrumb with Icons**
+- **Interactive Star Rating**
+- **Scrolling News Ticker**
+- **CSS Speech Bubble**
 
 ### Challenging & Modern
 - **Animated Tabs**:.  
-- **CSS Lava Lamp Menu**: Design a menu with a "lava lamp" effect using pseudo-elements.  
+- **CSS Lava Lamp Menu**
 - **CSS Particle Background**.  
 - **CSS-only Flipbook**
-- **Glowing Effects**: 
-- **3D Perspective Card Hover**: 
-- **Rotating Carousel**: Design a carousel that rotates images or text in a circular motion.  
-- **Diagonal Sections**: Style a webpage with diagonal-cut sections using CSS transforms.  
-- **Multi-column Layouts**: Create magazine-style multi-column layouts.  
-- **Animated Wave Backgrounds**: Add wavy animations to page backgrounds with keyframes.  
+- **Glowing Effects**
+- **3D Perspective Card Hover**
+- **Rotating Carousel**
+- **Diagonal Sections**
+- **Multi-column Layouts**  
+- **Animated Wave Backgrounds**
 
 -----------------------------------
