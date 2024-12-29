@@ -8,8 +8,9 @@
 # Upcoming Projects 
 
 Basic HTML & CSS
- * Image gallery: Create a grid or list to display images.
- * Navigation bar: Build a horizontal or vertical navigation menu.
+ * Image gallery
+ * Navigation Menu: Horizontal
+ * Navigation Menu: Vertical 
  * Dropdown menu: Create a menu with nested sub-items.
  * Chat Interface
  * Card: Recipe
@@ -18,13 +19,9 @@ Basic HTML & CSS
  * Survey Form
  * Button styles: Design various button shapes, colors, and hover effects.
  * Forms: Create basic forms with text fields, radio buttons, checkboxes, and submit buttons.
- * Tables: Build simple tables to display data.
+ * Tables: Simple
  * Lists: Style ordered and unordered lists.
- * Div positioning: Practice absolute, relative, fixed, and static positioning.
- * Background images: Set background images for elements and the page.
- * CSS gradients: Create linear and radial gradients.
  * CSS shapes: Experiment with basic shapes like circles and triangles.
- * Favicon: Create a favicon for your webpage.
  * Tooltip: .
  * Modal popup Interface >
  * Accordion:.
@@ -41,7 +38,7 @@ Basic HTML & CSS
  * Image slider >
  * Dropdown menu with hover effects: Create a dropdown menu with smooth hover animations.
  * Sticky navigation bar: Make the navigation bar stick to the top when scrolling.
- * Off-canvas menu: Implement a slide-in menu for mobile devices.
+ * Off-canvas menu
  * Parallax scrolling effect: Create a parallax effect where the background moves slower than the foreground.
  * Responsive image gallery: Build an image gallery that adapts to different screen sizes.
  * Animated buttons: Create buttons with interesting hover animations.
