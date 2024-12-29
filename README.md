@@ -39,22 +39,22 @@ Basic HTML & CSS
  * Dropdown menu with hover effects: Create a dropdown menu with smooth hover animations.
  * Sticky navigation bar: Make the navigation bar stick to the top when scrolling.
  * Off-canvas menu
- * Parallax scrolling effect: Create a parallax effect where the background moves slower than the foreground.
- * Responsive image gallery: Build an image gallery that adapts to different screen sizes.
- * Animated buttons: Create buttons with interesting hover animations.
+ * Parallax scrolling effect
+ * Responsive image gallery
+ * Animated buttons
  * Loading animations: Design various loading spinners and animations.
 ## Slightly More Advanced
  * Weather app Imterface >
- * Quiz app: Build a quiz with multiple choice questions.
+ * Quiz app Interface 
  * Landing page: Create a landing page for a product or service.
  * comments Template>
  * E-commerce product page >
  * Checkout page >
  * Admin dashboard: Build a simple dashboard with charts and data visualizations.
- * Music player: Create a basic music player with play, pause, and volume controls.
- * Video player: Design a video player with basic controls.
- * Interactive map: Implement a map with markers and popups.
- * Search bar.
+ * Music player
+ * Video player
+ * Interactive map
+ * Search bar
  * Drag and drop interface: Build a drag and drop interface for tasks or items.
  * File upload Interface >
  * Responsive pricing table: Design a pricing table that adapts to different screen sizes.
@@ -163,10 +163,10 @@ Here are additional **HTML & CSS-only project ideas** to expand your practice li
 ### Challenging & Modern
 - **Animated Tabs**:.  
 - **CSS Lava Lamp Menu**: Design a menu with a "lava lamp" effect using pseudo-elements.  
-- **CSS Particle Background**: Implement a lightweight particle effect using keyframes.  
-- **CSS-only Flipbook**: Build a simple flipbook effect for displaying content or images.  
-- **Glowing Effects**: Add glowing effects to buttons or cards for a futuristic design.  
-- **3D Perspective Card Hover**: Implement a hover effect that tilts cards in 3D space.  
+- **CSS Particle Background**.  
+- **CSS-only Flipbook**
+- **Glowing Effects**: 
+- **3D Perspective Card Hover**: 
 - **Rotating Carousel**: Design a carousel that rotates images or text in a circular motion.  
 - **Diagonal Sections**: Style a webpage with diagonal-cut sections using CSS transforms.  
 - **Multi-column Layouts**: Create magazine-style multi-column layouts.  
