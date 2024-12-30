@@ -6,6 +6,12 @@
 - ***No JavaScript***
 - ***HTML & CSS Only Projects***
 
+## Naming Conventions
+- ***Dashed***
+- ***Small Caps***
+- ***No JavaScript***
+- ***HTML & CSS Only Projects***
+
 # Upcoming Projects 
 
 Basic HTML & CSS
