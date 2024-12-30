@@ -2,9 +2,9 @@
 
 ## Features 
 
-** All Projects are Responsive 💯 **
-** All Projects Contain a Figma Design File **
-** No Java# HTML & CSS Only Projects **
+*All Projects are Responsive 💯*
+*All Projects Contain a Figma Design File*
+*No JavaScript - HTML & CSS Only Projects*
 
 
 ## Features 
