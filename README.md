@@ -12,6 +12,9 @@
 - ***No JavaScript***
 - ***HTML & CSS Only Projects***
 
+## Finished Projects
+  * Cards: Adventure
+
 # Upcoming Projects 
 
 Basic HTML & CSS
