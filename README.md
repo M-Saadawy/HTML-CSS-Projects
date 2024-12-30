@@ -1,16 +1,10 @@
 # HTML & CSS Only Projects
 
-## Features 
-
-*All Projects are Responsive 💯*
-*All Projects Contain a Figma Design File*
-*No JavaScript - HTML & CSS Only Projects*
-
-
-## Features 
-
-### All Projects are Responsive 💯
-### No JavaScript (Not Even a Single Line) ⚠️
+## Features
+- ***All Projects are Responsive 💯***
+- ***All Projects Contain a Figma Design File***
+- ***No JavaScript***
+- ***HTML & CSS Only Projects***
 
 # Upcoming Projects 
 
