@@ -1,1 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Modern responsive card layout showcasing Adventure Cards Layout And Also showing a loading card effect">
+  <title>Modern Responsive Cards</title>
+  <style>
+    /* Modern CSS Reset */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
+    /* Custom Properties */
+    :root {
+      --primary-color: #2563eb;
+      --primary-hover: #1d4ed8;
+      --text-primary: #1f2937;
+      --text-secondary: #4b5563;
+      --background: #f8f9fa;
+      --card-background: #ffffff;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.12);
+      --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+      --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
+      --border-radius: 1rem;
+      --spacing-sm: 0.5rem;
+      --spacing-md: 1rem;
+      --spacing-lg: 2rem;
+      --card-overlay: rgba(0, 0, 0, 0.03);
+      --card-border: transparent;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #111827;
+        --card-background: #1f2937;
+        --text-primary: #f9fafb;
+        --text-secondary: #d1d5db;
+        --primary-color: #60a5fa;
+        --primary-hover: #3b82f6;
+        --shadow-sm: 0 1px 3px rgba(0,0,0,0.3);
+        --shadow-md: 0 4px 6px rgba(0,0,0,0.2);
+        --shadow-lg: 0 10px 15px rgba(0,0,0,0.2);
+        --card-overlay: rgba(255, 255, 255, 0.03);
+        --card-border: rgba(255, 255, 255, 0.1);
+      }
+    }
+
+    /* Utilities */
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    /* System Font Stack */
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.5;
+      color: var(--text-primary);
+      background-color: var(--background);
+      padding: var(--spacing-lg);
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+    }
+
+    /* Improved Container Layout */
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+      gap: var(--spacing-lg);
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: var(--spacing-md);
+    }
+
+    /* Enhanced Card Styling */
+    .card {
+      background: var(--card-background);
+      border-radius: var(--border-radius);
+      overflow: hidden;
+      position: relative;
+      isolation: isolate;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--card-border);
+      backdrop-filter: blur(10px);
+    }
+
+    .card:hover {
+      transform: translateY(-4px) scale(1.01);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .card:focus-within {
+      outline: 2px solid var(--primary-color);
+      outline-offset: 4px;
+    }
+
+    .card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: var(--card-overlay);
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+
+    .card:hover::before {
+      opacity: 1;
+    }
+
+    /* Improved Image Container */
+    .card-image {
+      position: relative;
+      padding-top: 66.67%;
+      overflow: hidden;
+      background: linear-gradient(to right, #f1f5f9 0%, #e2e8f0 50%, #f1f5f9 100%);
+      background-size: 200% 100%;
+      animation: shimmer 1.5s infinite;
+    }
+
+    @keyframes shimmer {
+      0% { background-position: -200% 0; }
+      100% { background-position: 200% 0; }
+    }
+
+    .card-image picture {
+      position: absolute;
+      inset: 0;
+    }
+
+    .card-image img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+      will-change: transform;
+    }
+
+    .card:hover .card-image img {
+      transform: scale(1.05);
+    }
+
+    /* Enhanced Content Layout */
+    .card-content {
+      padding: var(--spacing-lg);
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-md);
+      flex: 1;
+      position: relative;
+    }
+
+    .card-title {
+      font-size: clamp(1.25rem, 2vw, 1.5rem);
+      font-weight: 600;
+      color: var(--text-primary);
+      line-height: 1.3;
+      transition: color 0.2s ease;
+    }
+
+    .card-description {
+      color: var(--text-secondary);
+      font-size: clamp(0.875rem, 1.5vw, 0.95rem);
+      flex: 1;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+    }
+
+    /* Improved Button Styling */
+    .read-more {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--spacing-sm);
+      padding: 0.75rem 1.5rem;
+      background-color: var(--primary-color);
+      color: white;
+      text-decoration: none;
+      border-radius: 0.5rem;
+      font-weight: 500;
+      transition: all 0.2s ease;
+      width: fit-content;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .read-more::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to right, transparent, rgba(255,255,255,0.2), transparent);
+      transform: translateX(-100%);
+      transition: transform 0.6s ease;
+    }
+
+    .read-more:hover::before {
+      transform: translateX(100%);
+    }
+
+    .read-more:hover, 
+    .read-more:focus {
+      background-color: var(--primary-hover);
+      transform: translateY(-2px);
+    }
+
+    .read-more:active {
+      transform: translateY(0);
+    }
+
+    .read-more:focus {
+      outline: 2px solid var(--primary-color);
+      outline-offset: 2px;
+    }
+
+    .read-more::after {
+      content: '→';
+      transition: transform 0.2s ease;
+    }
+
+    .read-more:hover::after {
+      transform: translateX(4px);
+    }
+
+    /* Loading State */
+    .card.loading {
+      pointer-events: none;
+    }
+
+    .card.loading .card-image,
+    .card.loading .card-title,
+    .card.loading .card-description {
+      background: linear-gradient(to right, #f1f5f9 0%, #e2e8f0 50%, #f1f5f9 100%);
+      background-size: 200% 100%;
+      animation: shimmer 1.5s infinite;
+      color: transparent;
+    }
+
+    /* Print Styles */
+    @media print {
+      body {
+        background: none;
+        padding: 0;
+      }
+
+      .card {
+        break-inside: avoid;
+        box-shadow: none;
+        border: 1px solid #ddd;
+      }
+
+      .read-more {
+        display: none;
+      }
+    }
+
+    /* High Contrast Mode */
+    @media (forced-colors: active) {
+      .card {
+        border: 1px solid CanvasText;
+      }
+      
+      .read-more {
+        border: 1px solid ButtonText;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="card-container">
+    <article class="card" tabindex="0">
+      <div class="card-image">
+        <picture>
+          <img src="images\mountains.jpg" alt="A scenic mountain landscape with snow-capped peaks and lush forests beneath clear blue skies" loading="lazy" decoding="async">
+        </picture>
+      </div>
+      <div class="card-content">
+        <h2 class="card-title">Mountain Adventures</h2>
+        <p class="card-description">Discover breathtaking vistas and challenging trails in the world's most majestic mountain ranges. Experience the thrill of high-altitude exploration and pristine wilderness.</p>
+        <a href="#" class="read-more" aria-label="Learn more about Mountain Adventures">
+          Explore More<span class="sr-only"> about Mountain Adventures</span>
+        </a>
+      </div>
+    </article>
+
+    <article class="card" tabindex="0">
+      <div class="card-image">
+        <picture>
+          <img src="images\tropical.jpg" alt="A colorful spread of fresh tropical fruits arranged on a rustic wooden table" loading="lazy" decoding="async">
+        </picture>
+      </div>
+      <div class="card-content">
+        <h2 class="card-title">Tropical Delights</h2>
+        <p class="card-description">Savor the exotic flavors of tropical fruits and discover their incredible health benefits. From sweet mangoes to tangy passion fruits, explore nature's candy.</p>
+        <a href="#" class="read-more" aria-label="Learn more about Tropical Delights">
+          Discover More<span class="sr-only"> about Tropical Delights</span>
+        </a>
+      </div>
+    </article>
+
+    <article class="card loading">
+      <div class="card-image"></div>
+      <div class="card-content">
+        <h2 class="card-title">Loading Content</h2>
+        <p class="card-description">Loading description content. Please wait while we fetch the latest information.</p>
+        <a href="#" class="read-more">
+          Loading<span class="sr-only"> content</span>
+        </a>
+      </div>
+    </article>
+  </main>
+</body>
+</html>
