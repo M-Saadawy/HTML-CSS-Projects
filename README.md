@@ -40,7 +40,7 @@ Basic HTML & CSS
  * Gradient Divider: Add a stylish gradient divider between sections.
  * Gradient Overlay Gallery: Add gradient overlays to images that change on hover.
  * Hover Effects Gallery
- * Hover Flip Text: Make text flip or rotate on hover for a creative effect.
+ * Hover Flip Text
  * Hover Image Reveal: Design a grid where images are revealed on hover.
  * Image gallery
  * Lists: Style ordered and unordered lists.
@@ -51,7 +51,7 @@ Basic HTML & CSS
  * Off-canvas menu
  * Parallax scrolling effect
  * Peek-a-Boo Image: Implement an image that slides or fades into view when hovering.
- * Polaroid Image Gallery: Create a photo gallery styled like polaroids with hover effects.
+ * Polaroid Image Gallery
  * Responsive Card Grid: Build a card layout that adjusts dynamically to screen sizes.
  * Responsive image gallery
  * Ribbon Header: Design a header with a ribbon-like effect.
@@ -190,11 +190,11 @@ Challenging & Modern
  * Animated Tabs
  * Animated Wave Backgrounds
  * Complex Nested Dropdown: Build a mega dropdown menu with multi-level submenus.
- * CSS Fireworks Animation: Build a fireworks effect using only CSS keyframes.
+ * CSS Fireworks Animation
  * CSS Lava Lamp Menu
  * CSS Particle Background
  * CSS-only Flipbook
- * CSS-only Light/Dark Mode Animation: Add smooth transitions when toggling modes.
+ * CSS-only Light/Dark Mode Animation
  * CSS-only accordion
  * CSS-only dropdown menu
  * CSS-only loading animations
@@ -208,17 +208,15 @@ Challenging & Modern
  * Glowing Effects
  * Hover-activated Dropdown Tabs: Design tabs that switch content on hover.
  * Interactive 3D Cube Menu: Create a 3D cube with navigational links on each face.
- * Liquid Button Animation: Style buttons with liquid-like hover effects.
+ * Liquid Button Animation
  * Morphing SVG Shapes: Use CSS animations to morph one SVG shape into another.
  * Multi-column Layouts
  * Neumorphism design elements
  * Rotating Carousel
- * Scrollable 3D Gallery: Build a horizontal gallery with 3D depth effects.
- * Single-page website with smooth scrolling
- * Website with a contact form with AJAX
- * Website with a lightbox for images
- * Website with a preloader
- * Website with a sticky footer
- * Website with animations and transitions
- * Website with lazy loading images
- * Zoomable Image Grid: Create a grid of images that zoom on hover.
+ * Scrollable 3D Gallery: Horizontal
+ * lightbox for images
+ * preloader
+ * sticky footer
+ * Zoomable Image Grid
+ * Restaurant Menu
+ * Shopping Cart
