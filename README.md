@@ -74,6 +74,7 @@ Basic HTML & CSS
  * Timeline: Horizontal
  * Timeline: Vertical
  * Tooltip
+ * Booking: Bus Ticket Interface
  * Typography Styles: Design a page showcasing different font styles, weights, sizes, and text decorations.
 Intermediate
  * Accordion with Icons
