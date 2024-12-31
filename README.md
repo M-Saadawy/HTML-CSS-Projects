@@ -12,6 +12,12 @@
 - ***No JavaScript***
 - ***HTML & CSS Only Projects***
 
+## Reused Styles
+* Some Styles are reused
+* Their class name begins with 'reused'
+* There's a comment on top of each on where to find them
+
+  
 ## Finished Projects
   * Cards: Adventure
 
