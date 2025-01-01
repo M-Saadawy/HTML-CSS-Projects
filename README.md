@@ -27,6 +27,7 @@ Basic HTML & CSS
  * Animated buttons
  * Animated Checkmark: Create a CSS-only checkmark animation.
  * Animated Dividers: Create dividers with subtle animation effects between sections.
+ * Checkout Page
  * Animated Social Media Icons: Add hover effects and animations to social media icons.
  * Badge with Counter: Design a badge that includes a counter for notifications.
  * Bubble Navigation Menu: Build a circular navigation menu with expanding bubbles.
